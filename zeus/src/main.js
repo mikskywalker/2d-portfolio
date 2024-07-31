@@ -31,7 +31,7 @@ k.scene("main", async () => {
   // Play the background music in a loop
   const bgm = k.play("bgm", {
     loop: true,
-    volume: 0.3, // Adjust volume if needed
+    volume: 0.3,
   });
 
   const player = k.make([
